@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<h1>New ticket for approval</h1>
+<h2>Dear Managers,</h2>
+<div>
+    <h2>New ticket <a th:href="@{'http://localhost:8080/tickets/' + ${id} }">[[${id}]] </a> is waiting for your approval.</h2>
+</div>
+
+</body>
+</html>
